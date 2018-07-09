@@ -1,3 +1,12 @@
+Versions des exercices réalisées par Christophe Leray, Romain Saillour et Léona Chevrel lors de la session 5 de THP 
+
+
+
+
+
+
+
+
 Test First Ruby -- RSpec 3 Edition
 ==========
 
