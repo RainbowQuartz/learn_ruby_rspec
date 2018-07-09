@@ -19,5 +19,15 @@ def first_word(str)
 end
 
 def titleize(str)
-  return str.gsub(/(?<=\A|\s)\w/, &:upcase)
+  str = str.split
+  str.each do |word|
+    if word.length > 3
+      word[0] = word[0].upcase
+    else
+      word = word.downcase
+    end
+  end
+  str = str.join(" ")
+  str[0] = str[0].upcase
+  return str
 end
