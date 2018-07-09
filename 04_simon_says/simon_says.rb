@@ -19,5 +19,5 @@ def first_word(str)
 end
 
 def titleize(str)
-  return str.split(/ |\_/).map(&:capitalize).join(" ")
+  return str.gsub(/(?<=\A|\s)\w/, &:upcase)
 end
